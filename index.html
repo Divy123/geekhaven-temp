@@ -1,0 +1,2941 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="en-gb">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css_a12e60de4c4a3f08729f3f651db60bc9b677a5a0.css" />
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+        crossorigin="" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Begin Jekyll SEO tag v2.3.0 -->
+    <title>Geekhaven</title>
+    <meta property="og:title" content="GitHub Octoverse 2017" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Highlights from the last twelve months" />
+    <meta property="og:description" content="Highlights from the last twelve months" />
+    <link rel="canonical" href="index.html" />
+    <meta property="og:url" content="https://octoverse.github.com/" />
+    <meta property="og:site_name" content="GitHub Octoverse 2017" />
+    <meta property="og:image" content="https://octoverse.github.com/assets/img/octoverse-socialCard.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@github" />
+    <script type="application/ld+json">
+{"name":"GitHub Octoverse 2017","description":"Highlights from the last twelve months","author":null,"@type":"WebSite","url":"https://octoverse.github.com/","image":"https://octoverse.github.com/assets/img/octoverse-socialCard.png","publisher":null,"headline":"GitHub Octoverse 2017","dateModified":null,"datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+    <!-- End Jekyll SEO tag -->
+
+    <link type="application/atom+xml" rel="alternate" href="feed.xml" title="GitHub Octoverse 2017" />
+</head>
+
+
+<body>
+    <div class="Header-container container-xxl mx-auto position-relative">
+        <header class="Universe-header container-xxl mx-auto d-flex flex-justify-between flex-items-center position-fixed top-0 right-0 left-0 px-4 px-md-3 py-3 py-md-5">
+            <img class="Universe-logo" src="./assets/img/geekhaven.png" alt="GitHub Universe Logomark" />
+            <h1 class="d-none">GitHub</h1>
+            <img class="GitHub-logo" src="assets/img/GitHub-wordmark.svg" style="margin-right: -6px;" alt="GitHub" />
+        </header>
+    </div>
+
+    <!--// "The State of the Octoverse" //-->
+    <div class="Hero height-md-fullScreen overflow-hidden bg-darkness">
+        <div class="position-relative container-xxl mx-auto px-4 px-md-6 pt-6 pt-md-0">
+            <h1 class="Universe-masthead h">
+                <span class="d-none d-md-block position-absolute right-0" style="top: 19%; margin-right: -0.3em;">
+                    <span class="d-block" style="margin-left: -0.15em;">Geek</span>
+                    <span class="d-block text-right" style="line-height: 100px; margin-left: -0.4em;">haven</span>
+                </span>
+                <span class="position-absolute left-0" style="top: 40%; margin-left: -0.1em;">2018</span>
+            </h1>
+
+            <div class="position-md-absolute top-0 bottom-0 right-0 mr-md-6">
+                <div class="vr--spectrum position-md-absolute top-0 bottom-0 right-0 mr-md-6"></div>
+            </div>
+            <div class="bg-vrs--interior--dark d-none d-md-block position-md-absolute top-0 right-0 bottom-0 left-0" style="margin: 0 80px">
+                <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 20%; margin-left: -0.35em;" data-rellax-speed="2"
+                    width="11" height="11" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                    <title>Star Copy</title>
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M8.878 15C7.855 10.978 6.978 10.064 3 8.878 7.022 7.855 7.936 6.978 9.123 3c1.022 4.022 1.9 4.936 5.877 6.123-4.022 1.022-4.936 1.9-6.122 5.877"
+                            fill="#24292E" />
+                        <path d="M8.878 15C7.855 10.978 6.978 10.064 3 8.878 7.022 7.855 7.936 6.978 9.123 3c1.022 4.022 1.9 4.936 5.877 6.123-4.022 1.022-4.936 1.9-6.122 5.877z"
+                            stroke="#F79533" stroke-width="5.866" fill="#F79533" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 10%;" data-rellax-speed="2" width="18" height="18"
+                    viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                    <title>Star Copy</title>
+                    <g fill="none" fill-rule="evenodd">
+                        <path d="M8.878 15C7.855 10.978 6.978 10.064 3 8.878 7.022 7.855 7.936 6.978 9.123 3c1.022 4.022 1.9 4.936 5.877 6.123-4.022 1.022-4.936 1.9-6.122 5.877"
+                            fill="#24292E" />
+                        <path d="M8.878 15C7.855 10.978 6.978 10.064 3 8.878 7.022 7.855 7.936 6.978 9.123 3c1.022 4.022 1.9 4.936 5.877 6.123-4.022 1.022-4.936 1.9-6.122 5.877z"
+                            stroke="#586069" stroke-width="5.866" fill="#586069" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+            </div>
+
+            <!--// Globe //-->
+            <div class="Earth">
+                <div class="Earth-floaties position-absolute top-0 right-0 bottom-0 left-0">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <img src="assets/img/globe.svg" class="width-full" />
+            </div>
+
+            <div class="position-relative mx-md-6">
+                <!--// SPACER //-->
+                <div class="py-6 py-md-80px mb-5 mb-md-0"></div>
+
+                <div class="Logo-waypoint d-md-flex flex-wrap position-relative">
+                    <!--// ROW //-->
+                    <div class="col-md-1"></div>
+                    <div class="col-md-6 col-lg-4 text-gray-light">
+                        <h2 class="f0 h lh-condensed text-white mb-2">Geekhaven&nbsp;2018</h2>
+                        <p>Welcome to GeekHaven. We are the technical Society of IIIT Allahabad.</p>
+                        <p> For any queries shoot us a mail at geekhaven@iiita.ac.in or contact us via the social media links.</p>
+                    </div>
+
+                    <!--// SPACER //-->
+                    <div class="col-md-12 py-6 my-md-6"></div>
+
+                    <div class="vr--spectrum position-md-absolute top-0 bottom-0 left-0"></div>
+                </div>
+            </div>
+
+            <div class="px-2 px-md-6">
+                <nav class="Nav text-bold text-white py-6">
+                    <ol>
+                        <li class="Nav-build h lh-condensed">
+                            <a href="index.html#nav1" class="js-smoothscroll-anchor d-inline-block text-spectrum--y">FOSS</a>
+                        </li>
+                        <li class="Nav-work h lh-condensed">
+                            <a href="index.html#nav2" class="js-smoothscroll-anchor d-inline-block text-spectrum--m">Web Dev</a>
+                        </li>
+                        <li class="Nav-learn h lh-condensed">
+                            <a href="index.html#nav3" class="js-smoothscroll-anchor d-inline-block text-spectrum--k">App Dev</a>
+                        </li>
+                        <li class="Nav-connect h lh-condensed">
+                            <a href="index.html#nav4" class="js-smoothscroll-anchor d-inline-block text-spectrum--c">Blockchain</a>
+                        </li>
+                        <li class="Nav-connect h lh-condensed">
+                            <a href="index.html#nav5" class="js-smoothscroll-anchor d-inline-block text-spectrum--t">Software Dev</a>
+                        </li>
+                        <li class="Nav-connect h lh-condensed">
+                            <a href="index.html#nav6" class="js-smoothscroll-anchor d-inline-block text-spectrum--c">Design</a>
+                        </li>
+                        <li class="Nav-learn h lh-condensed">
+                            <a href="index.html#nav7" class="js-smoothscroll-anchor d-inline-block text-spectrum--k">Cyber Sec</a>
+                        </li>
+                        <li class="Nav-work h lh-condensed">
+                            <a href="index.html#nav8" class="js-smoothscroll-anchor d-inline-block text-spectrum--m">AI</a>
+                        </li>
+                        <li class="Nav-build h lh-condensed">
+                            <a href="index.html#nav9" class="js-smoothscroll-anchor d-inline-block text-spectrum--y">Comp. Coding</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="position-relative">
+                <!--// SPACER //-->
+                <div class="py-md-6"></div>
+
+                <div class="vr--spectrum position-md-absolute top-0 bottom-0 left-0 ml-md-6"></div>
+
+                <!--// SPACER //-->
+                <div class="py-6 my-md-6"></div>
+
+                <!--// SPACER //-->
+                <div class="py-6"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="body" class="Body overflow-hidden">
+
+        <div class="container-xxl mx-auto">
+            <div id="intro" class="Nav-waypoint">
+                <!--// "Ten years of merging" //-->
+                <div class="bg-white bg-vrs px-4 px-md-6">
+                    <div class="bg-vrs--interior py-6 mx-md-6">
+                        <!--// SPACER //-->
+                        <div id="mapFocusTop" class="py-md-6 my-md-6"></div>
+
+                        <div class="d-md-flex flex-wrap position-relative py-6 my-md-6">
+                            <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="top: -2.5%; margin-left: -0.65em;" data-rellax-speed="2"
+                                width="23" height="23" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                                <title>star</title>
+                                <defs>
+                                    <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                                        <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                                        <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                                        <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                                        />
+                                        <feMerge>
+                                            <feMergeNode in="shadowMatrixOuter1" />
+                                            <feMergeNode in="SourceGraphic" />
+                                        </feMerge>
+                                    </filter>
+                                </defs>
+                                <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                                    <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                                        fill="#E1E4E8" />
+                                    <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                                        stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                                    />
+                                </g>
+                            </svg>
+
+
+                            <!--// ROW //-->
+                            <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                                <h2 class="h1 h lh-condensed mb-2">Overall Coordinators</h2>
+
+                                <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                                    width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                                    <title>star</title>
+                                    <defs>
+                                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                                            />
+                                            <feMerge>
+                                                <feMergeNode in="shadowMatrixOuter1" />
+                                                <feMergeNode in="SourceGraphic" />
+                                            </feMerge>
+                                        </filter>
+                                    </defs>
+                                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                                            fill="#E1E4E8" />
+                                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                                        />
+                                    </g>
+                                </svg>
+
+                            </div>
+
+                            <div class="col-lg-3"></div>
+
+                            <div class="col-md-7 col-lg-3 pt-md-6 mt-md-6 text-center text-md-left">
+                                <!--// SPACER //-->
+                                <div class="py-md-6 my-6"></div>
+                                <span class="BigNum-decimal d-block text-bold text-md-right text-spectrum--y">
+                                    <img src="./assets/img/overall1.jpg" class="over">
+                                </span>
+                                <div class="BigNum-context--24Million BigNum-context--rotate text-md-right">
+                                    <div class="BigNum-context-figure text-bold">Anupam Dagar</div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-lg-1"></div>
+
+                            <!--// ROW //-->
+                            <div class="col-md-1 col-lg-2"></div>
+                            <div class="col-md-5 col-lg-4 col-xl-3 my-6 text-center text-md-left">
+                                <span class="BigNum-decimal d-block text-bold text-spectrum--m">
+                                    <img src="./assets/img/overall2.jpg" class="over">
+                                </span>
+                                <div class="BigNum-context--1Point5Million BigNum-context--rotate">
+                                    <div class="BigNum-context-figure text-bold">Shreyansh Dwivedi</div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-5"></div>
+
+                            <!--// ROW //-->
+
+                            <div class="py-md-80px"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="container-xxl mx-auto">
+                    <!--// "BUILD" //-->
+                    <div class="bg-white bg-vrs px-4 px-md-6">
+                        <div class="bg-vrs--interior mx-md-6">
+                            <!--// SPACER //-->
+                            
+
+                            <!--// "Build" header //-->
+                            <div class="position-relative">
+                                <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 3.5%; margin-right: -0.95em;" data-rellax-speed="2"
+                                    width="30" height="30" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                                    <title>star</title>
+                                    <defs>
+                                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                                            />
+                                            <feMerge>
+                                                <feMergeNode in="shadowMatrixOuter1" />
+                                                <feMergeNode in="SourceGraphic" />
+                                            </feMerge>
+                                        </filter>
+                                    </defs>
+                                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                                            fill="#E1E4E8" />
+                                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                                        />
+                                    </g>
+                                </svg>
+
+                                <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 2.5%; margin-left: -0.70em;" data-rellax-speed="2"
+                                    width="24" height="24" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                                    <title>star</title>
+                                    <defs>
+                                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                                            />
+                                            <feMerge>
+                                                <feMergeNode in="shadowMatrixOuter1" />
+                                                <feMergeNode in="SourceGraphic" />
+                                            </feMerge>
+                                        </filter>
+                                    </defs>
+                                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                                            fill="#E1E4E8" />
+                                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                                            stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                                        />
+                                    </g>
+                                </svg>
+
+
+                                <div class="col-md-8 col-lg-6 text-center px-4 py-6 mx-auto">
+                                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+
+                                    <div class="py-6 my-6">
+                                        <div class="h2" id="nav1">01</div>
+                                        <h2 class="h0 text-spectrum--y lh-condensed">FOSS</h2>
+                                        <p class="text-gray col-sm-10 mx-auto">Free and Open Source Software</p>
+                                    </div>
+
+                                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                                <h2 class="h1 h lh-condensed mb-2">Coordinators</h2>
+
+                                <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                                    width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                                    <title>star</title>
+                                    <defs>
+                                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                                            />
+                                            <feMerge>
+                                                <feMergeNode in="shadowMatrixOuter1" />
+                                                <feMergeNode in="SourceGraphic" />
+                                            </feMerge>
+                                        </filter>
+                                    </defs>
+                                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                                            fill="#E1E4E8" />
+                                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                                        />
+                                    </g>
+                                </svg>
+
+                            </div>
+
+                            <!--// SPACER //-->
+                          
+
+                            <!--// "" //-->
+                            <div class="d-md-flex flex-wrap gutter-md py-6">
+                                <!--// ROW //-->
+                                <div class="col-md-3 col-lg-2"></div>
+                                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                                    <span class="BigNum-decimal--rotate d-block text-bold text-y-start">
+                                        <img src="./assets/img/foss_coordi1.jpg" class="coordi">
+                                    </span>
+                                    <div class="BigNum-context">
+                                        <div class="BigNum-context-figure text-bold"
+                                        style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                                -moz-transform:     rotate(-90deg);
+                                -webkit-transform:  rotate(-90deg);
+                                -o-transform:       rotate(-90deg);
+                                padding-left:154px;">Aswin VB</div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-6"></div>
+
+                                <!--// SPACER //-->
+                               
+                                <!--// ROW //-->
+                                <div class="col-md-7 col-lg-8"></div>
+                                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                                    <span class="BigNum-decimal--rotate d-inline-block text-bold text-y-start">
+                                        <img src="./assets/img/foss_coordi2.jpg" class="coordi">
+                                    </span>
+                                    <div class="BigNum-context--25Million BigNum-context">
+                                        <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                                        -moz-transform:     rotate(-90deg);
+                                        -webkit-transform:  rotate(-90deg);
+                                        -o-transform:       rotate(-90deg);
+                                        padding-left:154px;">Aswanth K Anil</div>
+                                        
+                                    </div>
+                                </div>
+
+                                <!--// ROW //-->
+
+
+
+                                <!--// SPACER //-->
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--// SPACER //-->
+                    <!-- <div class="py-6 my-6"></div> -->
+
+                    <div class="d-md-flex flex-wrap">
+                        <div class="col-md-5 pl-md-6">
+                            <h3 class="h1 lh-condensed mb-2">Members</h3>
+                            <!-- <p class="text-gray mr-md-6">Comments and reviews are just a small part of how much talk it takes to build to software. This year, you exchanged feedback with coworkers, collaborators, and friends all over the world.</p> -->
+                        </div>
+
+
+                        <div class="col-md-2 col-lg-3"></div>
+
+                        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                            <!--// SPACER //-->
+                            <div class="py-md-80px my-6"></div>
+
+                            <span class="BigNum-decimal--rotate d-block text-bold text-y-end">
+                                <img src="./assets/img/divy.jpg" style="margin-left: 107px" class="member">
+                            </span>
+                            <div class="BigNum-context">
+                                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                                -moz-transform:     rotate(-90deg);
+                                -webkit-transform:  rotate(-90deg);
+                                -o-transform:       rotate(-90deg);
+                                padding-left:154px; font-size:45px; margin-right:210px">Divy   Khare</div>
+                               
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-lg-2"></div>
+
+                        <div class="col-md-5 col-lg-4 text-center text-md-left">
+                            <span class="BigNum-decimal--rotate d-block text-bold text-y-end">
+                                <img src="./assets/img/foss_member2.jpg" style="margin-left: 107px;"class="member">
+                            </span>
+                            <div class="BigNum-context">
+                                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                                -moz-transform:     rotate(-90deg);
+                                -webkit-transform:  rotate(-90deg);
+                                -o-transform:       rotate(-90deg);
+                                padding-left:154px;font-size:45px;margin-right: 210px">Ananya Agrawal</div>
+                            </div>
+                        </div>
+                        <!-- <div class="py-md-80px my-6"></div> -->
+                        <div class="col-md-3 col-lg-2"></div>
+
+                        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                            <!--// SPACER //-->
+                            <div class="py-md-80px my-6"></div>
+
+                            <span class="BigNum-decimal--rotate d-block text-bold text-y-end">
+                                <img src="./assets/img/foss_member3.jpg" style="margin-left: 107px" class="member">
+                            </span>
+                            <div class="BigNum-context">
+                                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                                -moz-transform:     rotate(-90deg);
+                                -webkit-transform:  rotate(-90deg);
+                                -o-transform:       rotate(-90deg);
+                                padding-left:154px;font-size:45px;
+                                margin-right: 210px;
+                                ">Sneha Mishra</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--// SPACER //-->
+
+
+                </div>
+            </div>
+
+            <div class="position-relative overflow-hidden bg-white pt-6 pt-md-0">
+                <div class="px-4 py-md-80px m-md-6">
+                    <div class="col-md-6 col-lg-4 position-md-absolute mt-md-6 ml-md-6">
+                        <h3 class="h1 mb-2 lh-condensed">Resources</h3>
+                        <p class="text-gray">In Foss, we care for our learners and here you go with some of the best resources to begin with</p>
+                    </div>
+                </div>
+                <ol class="WordCloud d-md-flex flex-wrap flex-justify-around gutter-md f2 text-center text-md-left text-bold text-gray-light lh-condensed list-style-none mt-6 mt-md-0 px-4">
+                    <li class="my-2">
+                        <a href="https://guides.github.com/activities/hello-world/" class="text-y-end">github-
+                            <br />learning</a>
+                    </li>
+                     <li class="my-2">
+                        <a href="https://summerofcode.withgoogle.com/" class="text-y-start">GSOC</a>
+                    </li>
+                    <!-- <li class="my-2">
+                        <a href="https://github.com/topics/ios" class="text-y-start">iOS</a>
+                    </li> -->
+                    <li class="my-2">
+                        <a href="https://en.unesco.org/foss" class="text-y-end">FOSS</a>
+                    </li>
+                    <li class="my-2">
+                        <a href="https://www.horizonpeakconsulting.com/write-technical-complex-blogs/" class="text-y-start">blog</a>
+                    </li> 
+                    <li class="my-2">
+                        <a href="https://github.com/topics/website" class="text-y-start">learn CL</a>
+                        
+                    </li>
+                     <li class="my-2">
+                        <a href="https://try.github.io" class="text-y-end">learning-git</a>
+                    </li> 
+                    <li class="my-2">
+                        <a href="https://en.wikipedia.org/wiki/Software_framework" class="text-y-start">framework</a>
+                    </li>
+                    <!-- <li class="my-2">
+                        <a href="https://github.com/topics/arduino" class="text-y-end">arduino</a>
+                    </li> -->
+                    <li class="my-2">
+                        <a href="https://opensource.com/life/16/1/6-beginner-open-source" class="text-y-start">Foss to begin</a>
+                    </li>  -->
+                    <li class="my-2">
+                        <a href="https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/" class="text-y-end">dual-booting</a>
+                    </li>
+                    <!-- <li class="my-2">
+                        <a href="https://github.com/topics/bot" class="text-y-start">bot</a>
+                    </li> -->
+                    <div class="d-none d-md-block col-md-8 col-lg-5" style="order: -1; height: 200px;"></div>
+                </ol>
+            </div>
+
+
+            <!--// SPACER //-->
+            <div class="col-md-12 py-6 my-6"></div>
+
+            <div class="bg-white bg-vrs px-4 px-md-6">
+                <div class="bg-vrs--interior mx-md-6">
+                    <!--// SPACER //-->
+                    <div id="build" class="Nav-waypoint py-6 py-md-80px"></div>
+
+                    <!--// "Build" header //-->
+                    <div class="position-relative">
+                        <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 3.5%; margin-right: -0.95em;" data-rellax-speed="2"
+                            width="30" height="30" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                            <title>star</title>
+                            <defs>
+                                <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                                    <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                                    <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                                    <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                                    />
+                                    <feMerge>
+                                        <feMergeNode in="shadowMatrixOuter1" />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                                <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                                    fill="#E1E4E8" />
+                                <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                                    stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                                />
+                            </g>
+                        </svg>
+
+                        <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 2.5%; margin-left: -0.70em;" data-rellax-speed="2"
+                            width="24" height="24" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                            <title>star</title>
+                            <defs>
+                                <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                                    <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                                    <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                                    <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                                    />
+                                    <feMerge>
+                                        <feMergeNode in="shadowMatrixOuter1" />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                                <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                                    fill="#E1E4E8" />
+                                <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                                    stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                                />
+                            </g>
+                        </svg>
+
+
+                        <div class="col-md-8 col-lg-6 text-center px-4 py-6 mx-auto">
+                            <div class="vr bg-spectrum--y mx-auto my-6"></div>
+
+                            <div class="py-6 my-6">
+                                <div class="h2" id="nav2">02</div>
+                                <h2 class="h0 text-spectrum--y lh-condensed">Web Dev</h2>
+                                <p class="text-gray col-sm-10 mx-auto">Exploring the various aspect of browser and behind the scenes.</p>
+                            </div>
+
+                            <div class="vr bg-spectrum--y mx-auto my-6"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                        <h2 class="h1 h lh-condensed mb-2">Coordinators</h2>
+
+                        <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                            width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                            <title>star</title>
+                            <defs>
+                                <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                                    <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                                    <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                                    <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                                    />
+                                    <feMerge>
+                                        <feMergeNode in="shadowMatrixOuter1" />
+                                        <feMergeNode in="SourceGraphic" />
+                                    </feMerge>
+                                </filter>
+                            </defs>
+                            <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                                <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                                    fill="#E1E4E8" />
+                                <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                                    stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                                />
+                            </g>
+                        </svg>
+
+                    </div>
+
+                    <!--// SPACER //-->
+                    <div class="py-md-80px my-6"></div>
+
+                    <!--// "" //-->
+                    <div class="d-md-flex flex-wrap gutter-md py-6">
+                        <!--// ROW //-->
+                        <div class="col-md-3 col-lg-2"></div>
+                        <div class="col-md-5 col-lg-4 text-center text-md-left">
+                            <span class="BigNum-decimal--rotate d-block text-bold text-y-start"><img src="./assets/img/web_coordi1.jpeg" style="margin-left: 107px" class="member"></span>
+                            <div class="BigNum-context">
+                                <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                                -moz-transform:     rotate(-90deg);
+                                -webkit-transform:  rotate(-90deg);
+                                -o-transform:       rotate(-90deg);
+                                padding-left:154px;
+                                ">Pradeep Gangwar</div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-6"></div>
+
+                        <!--// SPACER //-->
+                        <div class="py-md-6 my-md-6 col-12"></div>
+                        <!--// ROW //-->
+                        <div class="col-md-7 col-lg-8"></div>
+                        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                            <span class="BigNum-decimal--rotate d-inline-block text-bold text-y-start">
+                                <img src="./assets/img/web_coordi2.jpg" style="margin-left: 107px" class="member">
+                            </span>
+                            <div class="BigNum-context--25Million BigNum-context">
+                                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                                -moz-transform:     rotate(-90deg);
+                                -webkit-transform:  rotate(-90deg);
+                                -o-transform:       rotate(-90deg);
+                                padding-left:154px;">Ayush Gupta</div>
+                                
+                                <p class="text-gray ml-md-1">
+                                    <strong>"Active"</strong> means there was some public activity within the last year—code committed,
+                                    a comment created, a repository starred, or an issue&nbsp;opened.</p>
+                            </div>
+                        </div>
+
+                        <!--// ROW //-->
+
+
+
+                        <!--// SPACER //-->
+                        <div class="col-md-12 py-6 my-6"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--// SPACER //-->
+            <!-- <div class="py-6 my-6"></div> -->
+
+            <div class="d-md-flex flex-wrap">
+                <div class="col-md-5 pl-md-6">
+                    <h3 class="h1 lh-condensed mb-2">Members</h3>
+                    <!-- <p class="text-gray mr-md-6">Comments and reviews are just a small part of how much talk it takes to build to software. This year, you exchanged feedback with coworkers, collaborators, and friends all over the world.</p> -->
+                </div>
+
+
+                <div class="col-md-2 col-lg-3"></div>
+
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <!--// SPACER //-->
+                    <div class="py-md-80px my-6"></div>
+
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-end">
+                        <img src="./assets/img/jigar.jpeg" style="margin-left: 107px" class="member">
+                    </span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;font-size:45px;">Jigar Chawda</div>
+                        
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-lg-2"></div>
+
+                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-end">
+                        <img src="./assets/img/ekansh.jpg" style="margin-left: 107px" class="member">
+                    </span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px; font-size:45px;">Ekansh Bansal</div>
+                        
+                    </div>
+                </div>
+                <!-- <div class="py-md-80px my-6"></div> -->
+                <div class="col-md-3 col-lg-2"></div>
+
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <!--// SPACER //-->
+                    <div class="py-md-80px my-6"></div>
+
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-end">
+                        <img src="./assets/img/adesh.jpg" style="margin-left: 107px" class="member">
+                    </span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;font-size:45px;">Adesh Shukla</div>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2"></div>
+
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <!--// SPACER //-->
+                    <!-- <div class="py-md-80px my-6"></div> -->
+
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-end">
+                        <img src="./assets/img/ayushjoglekar.jpg" style="margin-left: 107px" class="member">
+                    </span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;font-size:45px;">Ayush Joglekar</div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!--// SPACER //-->
+
+
+        </div>
+    </div>
+
+    <div class="position-relative overflow-hidden bg-white pt-6 pt-md-0">
+        <div class="px-4 py-md-80px m-md-6">
+            <div class="col-md-6 col-lg-4 position-md-absolute mt-md-6 ml-md-6">
+                <h3 class="h1 mb-2 lh-condensed">Resources</h3>
+                <p class="text-gray">In Foss, we care for our learners and here you go with some of the best resources to begin with</p>
+            </div>
+        </div>
+        <ol class="WordCloud d-md-flex flex-wrap flex-justify-around gutter-md f2 text-center text-md-left text-bold text-gray-light lh-condensed list-style-none mt-6 mt-md-0 px-4">
+            <li class="my-2">
+                <a href="https://github.com/topics/machine-learning" class="text-y-end">machine-
+                    <br />learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/game" class="text-y-start">game</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/ios" class="text-y-start">iOS</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/api" class="text-y-end">API</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/blog" class="text-y-start">blog</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/website" class="text-y-start">website</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/deep-learning" class="text-y-end">deep-learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/library" class="text-y-start">library</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/arduino" class="text-y-end">arduino</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/plugin" class="text-y-start">plugin</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/database" class="text-y-end">database</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/bot" class="text-y-start">bot</a>
+            </li>
+            <div class="d-none d-md-block col-md-8 col-lg-5" style="order: -1; height: 200px;"></div>
+        </ol>
+    </div>
+
+
+    <!--// SPACER //-->
+    <div class="col-md-12 py-6 my-6"></div>
+
+
+
+
+
+
+
+
+
+
+    <div class="bg-white bg-vrs px-4 px-md-6">
+        <div class="bg-vrs--interior mx-md-6">
+            <!--// SPACER //-->
+            <div id="build" class="Nav-waypoint py-6 py-md-80px"></div>
+
+            <!--// "Build" header //-->
+            <div class="position-relative">
+                <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 3.5%; margin-right: -0.95em;" data-rellax-speed="2"
+                    width="30" height="30" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 2.5%; margin-left: -0.70em;" data-rellax-speed="2"
+                    width="24" height="24" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+
+                <div class="col-md-8 col-lg-6 text-center px-4 py-6 mx-auto">
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+
+                    <div class="py-6 my-6">
+                        <div class="h2" id="nav3">03</div>
+                        <h2 class="h0 text-spectrum--y lh-condensed"
+                       >App Dev</h2>
+                    </div>
+
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                <h2 class="h1 h lh-condensed mb-2">Coordinators</h2>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                    width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+            </div>
+
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <!--// "" //-->
+            <div class="d-md-flex flex-wrap gutter-md py-6">
+                <!--// ROW //-->
+                <div class="col-md-3 col-lg-2"></div>
+                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-start">
+                        <img src="./assets/img/akshat.jpg" style="margin-left: 107px" class="member">
+                    </span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Akshat Jain</div>
+                      
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-6"></div>
+
+                <!--// SPACER //-->
+                <div class="py-md-6 my-md-6 col-12"></div>
+                <!--// ROW //-->
+                <div class="col-md-7 col-lg-8"></div>
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-inline-block text-bold text-y-start"><img src="./assets/img/shashank.jpg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context--25Million BigNum-context">
+                        <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Shashank Mishra</div>
+                        
+                    </div>
+                </div>
+
+                <!--// ROW //-->
+
+
+
+                <!--// SPACER //-->
+                <div class="col-md-12 py-6 my-6"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--// SPACER //-->
+    <!-- <div class="py-6 my-6"></div> -->
+
+    <div class="d-md-flex flex-wrap">
+        <div class="col-md-5 pl-md-6">
+            <h3 class="h1 lh-condensed mb-2">Members</h3>
+            <!-- <p class="text-gray mr-md-6">Comments and reviews are just a small part of how much talk it takes to build to software. This year, you exchanged feedback with coworkers, collaborators, and friends all over the world.</p> -->
+        </div>
+
+
+        <div class="col-md-2 col-lg-3"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/ritik.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Ritik Raj</div>
+                
+            </div>
+        </div>
+
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 text-center text-md-left">
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/mehul.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Mehul Arora</div>
+                
+            </div>
+        </div>
+        <!-- <div class="py-md-80px my-6"></div> -->
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/anant.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Anant Rai</div>
+                
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <!-- <div class="py-md-80px my-6"></div> -->
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/rahul.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Rahul Jha</div>
+                
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/harsh.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"  style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Harsh Gupta</div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--// SPACER //-->
+
+
+    </div>
+    </div>
+
+    <div class="position-relative overflow-hidden bg-white pt-6 pt-md-0">
+        <div class="px-4 py-md-80px m-md-6">
+            <div class="col-md-6 col-lg-4 position-md-absolute mt-md-6 ml-md-6">
+                <h3 class="h1 mb-2 lh-condensed">Resources</h3>
+                <p class="text-gray">In Foss, we care for our learners and here you go with some of the best resources to begin with</p>
+            </div>
+        </div>
+        <ol class="WordCloud d-md-flex flex-wrap flex-justify-around gutter-md f2 text-center text-md-left text-bold text-gray-light lh-condensed list-style-none mt-6 mt-md-0 px-4">
+            <li class="my-2">
+                <a href="https://github.com/topics/machine-learning" class="text-y-end">machine-
+                    <br />learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/game" class="text-y-start">game</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/ios" class="text-y-start">iOS</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/api" class="text-y-end">API</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/blog" class="text-y-start">blog</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/website" class="text-y-start">website</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/deep-learning" class="text-y-end">deep-learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/library" class="text-y-start">library</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/arduino" class="text-y-end">arduino</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/plugin" class="text-y-start">plugin</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/database" class="text-y-end">database</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/bot" class="text-y-start">bot</a>
+            </li>
+            <div class="d-none d-md-block col-md-8 col-lg-5" style="order: -1; height: 200px;"></div>
+        </ol>
+    </div>
+
+
+    <!--// SPACER //-->
+    <div class="col-md-12 py-6 my-6"></div>
+
+    <div class="bg-white bg-vrs px-4 px-md-6">
+        <div class="bg-vrs--interior mx-md-6">
+            <!--// SPACER //-->
+            <div id="build" class="Nav-waypoint py-6 py-md-80px"></div>
+
+            <!--// "Build" header //-->
+            <div class="position-relative">
+                <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 3.5%; margin-right: -0.95em;" data-rellax-speed="2"
+                    width="30" height="30" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 2.5%; margin-left: -0.70em;" data-rellax-speed="2"
+                    width="24" height="24" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+
+                <div class="col-md-8 col-lg-6 text-center px-4 py-6 mx-auto">
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+
+                    <div class="py-6 my-6">
+                        <div class="h2" id="nav4">04</div>
+                        <h2 class="h0 text-spectrum--y lh-condensed">Blockchain</h2>
+                        <p class="text-gray col-sm-10 mx-auto">A digitized, decentralized public ledger.</p>
+                    </div>
+
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                <h2 class="h1 h lh-condensed mb-2">Coordinators</h2>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                    width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+            </div>
+
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <!--// "" //-->
+            <div class="d-md-flex flex-wrap gutter-md py-6">
+                <!--// ROW //-->
+                <div class="col-md-3 col-lg-2"></div>
+                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-start"><img src="./assets/img/gagan.jpg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Gagan Ganpathy</div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-6"></div>
+
+                <!--// SPACER //-->
+                <div class="py-md-6 my-md-6 col-12"></div>
+                <!--// ROW //-->
+                <div class="col-md-7 col-lg-8"></div>
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-inline-block text-bold text-y-start"><img src="./assets/img/niharika.jpg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context--25Million BigNum-context">
+                        <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;" >Niharika Shrivastava</div>
+                       
+                    </div>
+                </div>
+
+                <!--// ROW //-->
+
+
+
+                <!--// SPACER //-->
+                <div class="col-md-12 py-6 my-6"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--// SPACER //-->
+    <!-- <div class="py-6 my-6"></div> -->
+
+    <div class="d-md-flex flex-wrap">
+        <div class="col-md-5 pl-md-6">
+            <h3 class="h1 lh-condensed mb-2">Members</h3>
+            <!-- <p class="text-gray mr-md-6">Comments and reviews are just a small part of how much talk it takes to build to software. This year, you exchanged feedback with coworkers, collaborators, and friends all over the world.</p> -->
+        </div>
+
+
+        <div class="col-md-2 col-lg-3"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/raviS.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Ravi Shyam</div>
+                
+            </div>
+        </div>
+
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 text-center text-md-left">
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end">
+                <img src="./assets/img/rohan.jpg" style="margin-left: 107px" class="member">
+            </span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Rohan Shekhawat</div>
+              
+            </div>
+        </div>
+        <!-- <div class="py-md-80px my-6"></div> -->
+        
+    <div class="position-relative overflow-hidden bg-white pt-6 pt-md-0">
+        <div class="px-4 py-md-80px m-md-6">
+            <div class="col-md-6 col-lg-4 position-md-absolute mt-md-6 ml-md-6">
+                <h3 class="h1 mb-2 lh-condensed">Resources</h3>
+                <p class="text-gray">In Foss, we care for our learners and here you go with some of the best resources to begin with</p>
+            </div>
+        </div>
+        <ol class="WordCloud d-md-flex flex-wrap flex-justify-around gutter-md f2 text-center text-md-left text-bold text-gray-light lh-condensed list-style-none mt-6 mt-md-0 px-4">
+            <li class="my-2">
+                <a href="https://github.com/topics/machine-learning" class="text-y-end">machine-
+                    <br />learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/game" class="text-y-start">game</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/ios" class="text-y-start">iOS</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/api" class="text-y-end">API</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/blog" class="text-y-start">blog</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/website" class="text-y-start">website</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/deep-learning" class="text-y-end">deep-learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/library" class="text-y-start">library</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/arduino" class="text-y-end">arduino</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/plugin" class="text-y-start">plugin</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/database" class="text-y-end">database</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/bot" class="text-y-start">bot</a>
+            </li>
+            <div class="d-none d-md-block col-md-8 col-lg-5" style="order: -1; height: 200px;"></div>
+        </ol>
+    </div>
+
+
+    <!--// SPACER //-->
+    <div class="col-md-12 py-6 my-6"></div>
+
+    <div class="bg-white bg-vrs px-4 px-md-6">
+        <div class="bg-vrs--interior mx-md-6">
+            <!--// SPACER //-->
+            <div id="build" class="Nav-waypoint py-6 py-md-80px"></div>
+
+            <!--// "Build" header //-->
+            <div class="position-relative">
+                <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 3.5%; margin-right: -0.95em;" data-rellax-speed="2"
+                    width="30" height="30" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 2.5%; margin-left: -0.70em;" data-rellax-speed="2"
+                    width="24" height="24" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+
+                <div class="col-md-8 col-lg-6 text-center px-4 py-6 mx-auto">
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+
+                    <div class="py-6 my-6">
+                        <div class="h2">05</div>
+                        <h2 class="h0 text-spectrum--y lh-condensed">Software Dev</h2>
+                        
+                    </div>
+
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                <h2 class="h1 h lh-condensed mb-2">Coordinators</h2>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                    width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+            </div>
+
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <!--// "" //-->
+            <div class="d-md-flex flex-wrap gutter-md py-6">
+                <!--// ROW //-->
+                <div class="col-md-3 col-lg-2"></div>
+                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-start"><img src="./assets/img/harshit.png" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Harshit Jain</div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-6"></div>
+
+                <!--// SPACER //-->
+                <div class="py-md-6 my-md-6 col-12"></div>
+                <!--// ROW //-->
+                <div class="col-md-7 col-lg-8"></div>
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-inline-block text-bold text-y-start"><img src="./assets/img/ravi.png" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context--25Million BigNum-context">
+                        <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Ravi Charan</div>
+                        
+                    </div>
+                </div>
+
+                <!--// ROW //-->
+
+
+
+                <!--// SPACER //-->
+                <div class="col-md-12 py-6 my-6"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--// SPACER //-->
+    <!-- <div class="py-6 my-6"></div> -->
+
+    <div class="d-md-flex flex-wrap">
+        <div class="col-md-5 pl-md-6">
+            <h3 class="h1 lh-condensed mb-2">Members</h3>
+            <!-- <p class="text-gray mr-md-6">Comments and reviews are just a small part of how much talk it takes to build to software. This year, you exchanged feedback with coworkers, collaborators, and friends all over the world.</p> -->
+        </div>
+
+
+        <div class="col-md-2 col-lg-3"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/naman.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Naman Tiwari</div>
+                
+            </div>
+        </div>
+
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 text-center text-md-left">
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end">
+                <img src="./assets/img/yash.jpg" style="margin-left: 107px" class="member">
+            </span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Yash Agarwal</div>
+                
+            </div>
+        </div>
+        <!-- <div class="py-md-80px my-6"></div> -->
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/aayush.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Aayush Chaudhary</div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <!--// SPACER //-->
+
+
+    </div>
+    </div>
+
+    <div class="position-relative overflow-hidden bg-white pt-6 pt-md-0">
+        <div class="px-4 py-md-80px m-md-6">
+            <div class="col-md-6 col-lg-4 position-md-absolute mt-md-6 ml-md-6">
+                <h3 class="h1 mb-2 lh-condensed">Resources</h3>
+                <p class="text-gray">In Foss, we care for our learners and here you go with some of the best resources to begin with</p>
+            </div>
+        </div>
+        <ol class="WordCloud d-md-flex flex-wrap flex-justify-around gutter-md f2 text-center text-md-left text-bold text-gray-light lh-condensed list-style-none mt-6 mt-md-0 px-4">
+            <li class="my-2">
+                <a href="https://github.com/topics/machine-learning" class="text-y-end">machine-
+                    <br />learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/game" class="text-y-start">game</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/ios" class="text-y-start">iOS</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/api" class="text-y-end">API</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/blog" class="text-y-start">blog</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/website" class="text-y-start">website</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/deep-learning" class="text-y-end">deep-learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/library" class="text-y-start">library</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/arduino" class="text-y-end">arduino</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/plugin" class="text-y-start">plugin</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/database" class="text-y-end">database</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/bot" class="text-y-start">bot</a>
+            </li>
+            <div class="d-none d-md-block col-md-8 col-lg-5" style="order: -1; height: 200px;"></div>
+        </ol>
+    </div>
+
+
+    <!--// SPACER //-->
+    <div class="col-md-12 py-6 my-6"></div>
+
+    <div class="bg-white bg-vrs px-4 px-md-6">
+        <div class="bg-vrs--interior mx-md-6">
+            <!--// SPACER //-->
+            <div id="build" class="Nav-waypoint py-6 py-md-80px"></div>
+
+            <!--// "Build" header //-->
+            <div class="position-relative">
+                <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 3.5%; margin-right: -0.95em;" data-rellax-speed="2"
+                    width="30" height="30" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 2.5%; margin-left: -0.70em;" data-rellax-speed="2"
+                    width="24" height="24" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+
+                <div class="col-md-8 col-lg-6 text-center px-4 py-6 mx-auto">
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+
+                    <div class="py-6 my-6">
+                        <div class="h2" id="nav6">06</div>
+                        <h2 class="h0 text-spectrum--y lh-condensed">Design</h2>
+                        <p class="text-gray col-sm-10 mx-auto">We draw it all.</p>
+                    </div>
+
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                <h2 class="h1 h lh-condensed mb-2">Coordinators</h2>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                    width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+            </div>
+
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <!--// "" //-->
+            <div class="d-md-flex flex-wrap gutter-md py-6">
+                <!--// ROW //-->
+                <div class="col-md-3 col-lg-2"></div>
+                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-start"><img src="./assets/img/mankar.jpg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Vinit Mankar</div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-6"></div>
+
+                <!--// SPACER //-->
+                <div class="py-md-6 my-md-6 col-12"></div>
+                <!--// ROW //-->
+                <div class="col-md-7 col-lg-8"></div>
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-inline-block text-bold text-y-start"><img src="./assets/img/himank.png" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context--25Million BigNum-context">
+                        <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Himank Goel</div>
+                        
+                    </div>
+                </div>
+
+                <!--// ROW //-->
+
+
+
+                <!--// SPACER //-->
+                <div class="col-md-12 py-6 my-6"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--// SPACER //-->
+    <!-- <div class="py-6 my-6"></div> -->
+
+    <div class="d-md-flex flex-wrap">
+        <div class="col-md-5 pl-md-6">
+            <h3 class="h1 lh-condensed mb-2">Members</h3>
+            <!-- <p class="text-gray mr-md-6">Comments and reviews are just a small part of how much talk it takes to build to software. This year, you exchanged feedback with coworkers, collaborators, and friends all over the world.</p> -->
+        </div>
+
+
+        <div class="col-md-2 col-lg-3"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/ajay.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Ajay Kudal</div>
+                
+            </div>
+        </div>
+
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 text-center text-md-left">
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/sahib.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Sahibdeep Singh</div>
+              
+            </div>
+        </div>
+        <!-- <div class="py-md-80px my-6"></div> -->
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/aman.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Aman Saxena</div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <!--// SPACER //-->
+
+
+    </div>
+    </div>
+
+    <div class="position-relative overflow-hidden bg-white pt-6 pt-md-0">
+        <div class="px-4 py-md-80px m-md-6">
+            <div class="col-md-6 col-lg-4 position-md-absolute mt-md-6 ml-md-6">
+                <h3 class="h1 mb-2 lh-condensed">Resources</h3>
+                <p class="text-gray">In Foss, we care for our learners and here you go with some of the best resources to begin with</p>
+            </div>
+        </div>
+        <ol class="WordCloud d-md-flex flex-wrap flex-justify-around gutter-md f2 text-center text-md-left text-bold text-gray-light lh-condensed list-style-none mt-6 mt-md-0 px-4">
+            <li class="my-2">
+                <a href="https://github.com/topics/machine-learning" class="text-y-end">machine-
+                    <br />learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/game" class="text-y-start">game</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/ios" class="text-y-start">iOS</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/api" class="text-y-end">API</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/blog" class="text-y-start">blog</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/website" class="text-y-start">website</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/deep-learning" class="text-y-end">deep-learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/library" class="text-y-start">library</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/arduino" class="text-y-end">arduino</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/plugin" class="text-y-start">plugin</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/database" class="text-y-end">database</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/bot" class="text-y-start">bot</a>
+            </li>
+            <div class="d-none d-md-block col-md-8 col-lg-5" style="order: -1; height: 200px;"></div>
+        </ol>
+    </div>
+
+
+    <!--// SPACER //-->
+    <div class="col-md-12 py-6 my-6"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="bg-white bg-vrs px-4 px-md-6">
+        <div class="bg-vrs--interior mx-md-6">
+            <!--// SPACER //-->
+            <div id="build" class="Nav-waypoint py-6 py-md-80px"></div>
+
+            <!--// "Build" header //-->
+            <div class="position-relative">
+                <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 3.5%; margin-right: -0.95em;" data-rellax-speed="2"
+                    width="30" height="30" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 2.5%; margin-left: -0.70em;" data-rellax-speed="2"
+                    width="24" height="24" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+
+                <div class="col-md-8 col-lg-6 text-center px-4 py-6 mx-auto">
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+
+                    <div class="py-6 my-6">
+                        <div class="h2" id="nav7">07</div>
+                        <h2 class="h0 text-spectrum--y lh-condensed">Cyber Security</h2>
+                        <p class="text-gray col-sm-10 mx-auto">Your ignorance is our power.</p>
+                    </div>
+
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                <h2 class="h1 h lh-condensed mb-2">Coordinators</h2>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                    width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+            </div>
+
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <!--// "" //-->
+            <div class="d-md-flex flex-wrap gutter-md py-6">
+                <!--// ROW //-->
+                <div class="col-md-3 col-lg-2"></div>
+                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-start"><img src="./assets/img/sandeep.jpg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Sandeep Sharma</div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-6"></div>
+
+                <!--// SPACER //-->
+                <div class="py-md-6 my-md-6 col-12"></div>
+                <!--// ROW //-->
+                <div class="col-md-7 col-lg-8"></div>
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-inline-block text-bold text-y-start"><img src="./assets/img/asrith.jpg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context--25Million BigNum-context">
+                        <div class="BigNum-context-figure text-bold">Ashrith Reddy</div>
+                        
+                       
+                    </div>
+                </div>
+
+                <!--// ROW //-->
+
+
+
+                <!--// SPACER //-->
+                <div class="col-md-12 py-6 my-6"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--// SPACER //-->
+    <!-- <div class="py-6 my-6"></div> -->
+
+    <div class="d-md-flex flex-wrap">
+        <div class="col-md-5 pl-md-6">
+            <h3 class="h1 lh-condensed mb-2">Members</h3>
+            <!-- <p class="text-gray mr-md-6">Comments and reviews are just a small part of how much talk it takes to build to software. This year, you exchanged feedback with coworkers, collaborators, and friends all over the world.</p> -->
+        </div>
+
+
+        <div class="col-md-2 col-lg-3"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/shivendra.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Shivendra Singh</div>
+                
+            </div>
+        </div>
+
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 text-center text-md-left">
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/amritest.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Amritesh Bhaskar</div>
+                
+            </div>
+        </div>
+        <!-- <div class="py-md-80px my-6"></div> -->
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/vijeta.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Vijeta</div>
+                
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <!-- <div class="py-md-80px my-6"></div> -->
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/prakhar.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Prakhar Porwal</div>
+                
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/raiker.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Ajay Raiker</div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--// SPACER //-->
+
+
+    </div>
+    </div>
+
+    <div class="position-relative overflow-hidden bg-white pt-6 pt-md-0">
+        <div class="px-4 py-md-80px m-md-6">
+            <div class="col-md-6 col-lg-4 position-md-absolute mt-md-6 ml-md-6">
+                <h3 class="h1 mb-2 lh-condensed">Resources</h3>
+                <p class="text-gray">In Foss, we care for our learners and here you go with some of the best resources to begin with</p>
+            </div>
+        </div>
+        <ol class="WordCloud d-md-flex flex-wrap flex-justify-around gutter-md f2 text-center text-md-left text-bold text-gray-light lh-condensed list-style-none mt-6 mt-md-0 px-4">
+            <li class="my-2">
+                <a href="https://github.com/topics/machine-learning" class="text-y-end">machine-
+                    <br />learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/game" class="text-y-start">game</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/ios" class="text-y-start">iOS</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/api" class="text-y-end">API</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/blog" class="text-y-start">blog</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/website" class="text-y-start">website</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/deep-learning" class="text-y-end">deep-learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/library" class="text-y-start">library</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/arduino" class="text-y-end">arduino</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/plugin" class="text-y-start">plugin</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/database" class="text-y-end">database</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/bot" class="text-y-start">bot</a>
+            </li>
+            <div class="d-none d-md-block col-md-8 col-lg-5" style="order: -1; height: 200px;"></div>
+        </ol>
+    </div>
+
+
+    <!--// SPACER //-->
+    <div class="col-md-12 py-6 my-6"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="bg-white bg-vrs px-4 px-md-6">
+        <div class="bg-vrs--interior mx-md-6">
+            <!--// SPACER //-->
+            <div id="build" class="Nav-waypoint py-6 py-md-80px"></div>
+
+            <!--// "Build" header //-->
+            <div class="position-relative">
+                <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 3.5%; margin-right: -0.95em;" data-rellax-speed="2"
+                    width="30" height="30" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 2.5%; margin-left: -0.70em;" data-rellax-speed="2"
+                    width="24" height="24" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+
+                <div class="col-md-8 col-lg-6 text-center px-4 py-6 mx-auto">
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+
+                    <div class="py-6 my-6">
+                        <div class="h2" id="nav8">08</div>
+                        <h2 class="h0 text-spectrum--y lh-condensed">AI</h2>
+                       
+                    </div>
+
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                <h2 class="h1 h lh-condensed mb-2">Coordinators</h2>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                    width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+            </div>
+
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <!--// "" //-->
+            <div class="d-md-flex flex-wrap gutter-md py-6">
+                <!--// ROW //-->
+                <div class="col-md-3 col-lg-2"></div>
+                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-start"><img src="./assets/img/agam.jpg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold"
+                        style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                                        -moz-transform:     rotate(-90deg);
+                                        -webkit-transform:  rotate(-90deg);
+                                        -o-transform:       rotate(-90deg);
+                                        padding-left:154px;">Agam Dwivedi</div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-6"></div>
+
+                <!--// SPACER //-->
+                <div class="py-md-6 my-md-6 col-12"></div>
+                <!--// ROW //-->
+                <div class="col-md-7 col-lg-8"></div>
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-inline-block text-bold text-y-start"><img src="./assets/img/arindam.jpg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context--25Million BigNum-context">
+                        <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Arindam Das Modak</div>
+                       
+                </div>
+
+                <!--// ROW //-->
+
+
+
+                <!--// SPACER //-->
+                <div class="col-md-12 py-6 my-6"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--// SPACER //-->
+    <!-- <div class="py-6 my-6"></div> -->
+
+    <div class="d-md-flex flex-wrap">
+        <div class="col-md-5 pl-md-6">
+            <h3 class="h1 lh-condensed mb-2">Members</h3>
+            <!-- <p class="text-gray mr-md-6">Comments and reviews are just a small part of how much talk it takes to build to software. This year, you exchanged feedback with coworkers, collaborators, and friends all over the world.</p> -->
+        </div>
+
+
+        <div class="col-md-2 col-lg-3"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/arpit.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Arpit Misraw</div>
+                
+            </div>
+        </div>
+
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 text-center text-md-left">
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/vishal.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Vishal Pani</div>
+               
+            </div>
+        </div>
+        <!-- <div class="py-md-80px my-6"></div> -->
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/shivansh.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Shivansh Beohar</div>
+                
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <!-- <div class="py-md-80px my-6"></div> -->
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/shubh.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Shubh Bajpai</div>
+                
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/shashwat.jpg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Shashwat Srivastav</div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--// SPACER //-->
+
+
+    </div>
+    </div>
+
+    <div class="position-relative overflow-hidden bg-white pt-6 pt-md-0">
+        <div class="px-4 py-md-80px m-md-6">
+            <div class="col-md-6 col-lg-4 position-md-absolute mt-md-6 ml-md-6">
+                <h3 class="h1 mb-2 lh-condensed">Resources</h3>
+                <p class="text-gray">In Foss, we care for our learners and here you go with some of the best resources to begin with</p>
+            </div>
+        </div>
+        <ol class="WordCloud d-md-flex flex-wrap flex-justify-around gutter-md f2 text-center text-md-left text-bold text-gray-light lh-condensed list-style-none mt-6 mt-md-0 px-4">
+            <li class="my-2">
+                <a href="https://github.com/topics/machine-learning" class="text-y-end">machine-
+                    <br />learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/game" class="text-y-start">game</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/ios" class="text-y-start">iOS</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/api" class="text-y-end">API</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/blog" class="text-y-start">blog</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/website" class="text-y-start">website</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/deep-learning" class="text-y-end">deep-learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/library" class="text-y-start">library</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/arduino" class="text-y-end">arduino</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/plugin" class="text-y-start">plugin</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/database" class="text-y-end">database</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/bot" class="text-y-start">bot</a>
+            </li>
+            <div class="d-none d-md-block col-md-8 col-lg-5" style="order: -1; height: 200px;"></div>
+        </ol>
+    </div>
+
+
+    <!--// SPACER //-->
+    <div class="col-md-12 py-6 my-6"></div>
+
+    <div class="bg-white bg-vrs px-4 px-md-6">
+        <div class="bg-vrs--interior mx-md-6">
+            <!--// SPACER //-->
+            <div id="build" class="Nav-waypoint py-6 py-md-80px"></div>
+
+            <!--// "Build" header //-->
+            <div class="position-relative">
+                <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 3.5%; margin-right: -0.95em;" data-rellax-speed="2"
+                    width="30" height="30" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 2.5%; margin-left: -0.70em;" data-rellax-speed="2"
+                    width="24" height="24" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#5073B8" stroke-width="3.52" fill="#5073B8" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+
+                <div class="col-md-8 col-lg-6 text-center px-4 py-6 mx-auto">
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+
+                    <div class="py-6 my-6">
+                        <div class="h2" id="nav9">09</div>
+                        <h2 class="h0 text-spectrum--y lh-condensed">Comp Coding</h2>
+                        <p class="text-gray col-sm-10 mx-auto">Only the best wins the race.</p>
+                    </div>
+
+                    <div class="vr bg-spectrum--y mx-auto my-6"></div>
+                </div>
+            </div>
+            <div class="col-md-5 col-lg-4 position-relative pl-md-6 pb-md-6 mb-6">
+                <h2 class="h1 h lh-condensed mb-2">Coordinators</h2>
+
+                <svg class="rellax bg-vrs-star bg-vrs-star--1 position-absolute" style="bottom: 30%; margin-left: -1.47em;" data-rellax-speed="2"
+                    width="50" height="50" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg">
+                    <title>star</title>
+                    <defs>
+                        <filter x="-75%" y="-58.3%" width="250%" height="250%" filterUnits="objectBoundingBox" id="a">
+                            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1" />
+                            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
+                            <feColorMatrix values="0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0 0.562845451 0 0 0 0.5 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"
+                            />
+                            <feMerge>
+                                <feMergeNode in="shadowMatrixOuter1" />
+                                <feMergeNode in="SourceGraphic" />
+                            </feMerge>
+                        </filter>
+                    </defs>
+                    <g filter="url(#a)" transform="translate(5 3)" fill="none" fill-rule="evenodd">
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137"
+                            fill="#E1E4E8" />
+                        <path d="M.622 6.137C4.283 5.113 5.101 4.289 6.101.622c1.024 3.661 1.847 4.479 5.514 5.479-3.66 1.024-4.478 1.846-5.478 5.514C5.113 7.955 4.289 7.137.622 6.137z"
+                            stroke="#F37055" stroke-width="3.52" fill="#F37055" stroke-linecap="round" stroke-linejoin="round"
+                        />
+                    </g>
+                </svg>
+
+            </div>
+
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <!--// "" //-->
+            <div class="d-md-flex flex-wrap gutter-md py-6">
+                <!--// ROW //-->
+                <div class="col-md-3 col-lg-2"></div>
+                <div class="col-md-5 col-lg-4 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-block text-bold text-y-start"><img src="./assets/img/foss_member1.jpeg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context">
+                        <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Luv</div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-6"></div>
+
+                <!--// SPACER //-->
+                <div class="py-md-6 my-md-6 col-12"></div>
+                <!--// ROW //-->
+                <div class="col-md-7 col-lg-8"></div>
+                <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+                    <span class="BigNum-decimal--rotate d-inline-block text-bold text-y-start"><img src="./assets/img/foss_member1.jpeg" style="margin-left: 107px" class="member"></span>
+                    <div class="BigNum-context--25Million BigNum-context">
+                        <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                        -moz-transform:     rotate(-90deg);
+                        -webkit-transform:  rotate(-90deg);
+                        -o-transform:       rotate(-90deg);
+                        padding-left:154px;">Harsh Jain</div>
+                        
+                    </div>
+                </div>
+
+                <!--// ROW //-->
+
+
+
+                <!--// SPACER //-->
+                <div class="col-md-12 py-6 my-6"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--// SPACER //-->
+    <!-- <div class="py-6 my-6"></div> -->
+
+    <div class="d-md-flex flex-wrap">
+        <div class="col-md-5 pl-md-6">
+            <h3 class="h1 lh-condensed mb-2">Members</h3>
+            <!-- <p class="text-gray mr-md-6">Comments and reviews are just a small part of how much talk it takes to build to software. This year, you exchanged feedback with coworkers, collaborators, and friends all over the world.</p> -->
+        </div>
+
+
+        <div class="col-md-2 col-lg-3"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/foss_member1.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Taponidhi Tulsi</div>
+                
+            </div>
+        </div>
+
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 text-center text-md-left">
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end">1.4</span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold"style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Sameer Kathal</div>
+               
+            </div>
+        </div>
+        <!-- <div class="py-md-80px my-6"></div> -->
+        <div class="col-md-3 col-lg-2"></div>
+
+        <div class="col-md-5 col-lg-4 my-6 text-center text-md-left">
+            <!--// SPACER //-->
+            <div class="py-md-80px my-6"></div>
+
+            <span class="BigNum-decimal--rotate d-block text-bold text-y-end"><img src="./assets/img/foss_member1.jpeg" style="margin-left: 107px" class="member"></span>
+            <div class="BigNum-context">
+                <div class="BigNum-context-figure text-bold" style="transform: rotate(-90 degree); -ms-transform:      rotate(90deg);
+                -moz-transform:     rotate(-90deg);
+                -webkit-transform:  rotate(-90deg);
+                -o-transform:       rotate(-90deg);
+                padding-left:154px;">Shubham Kumar</div>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <!--// SPACER //-->
+
+
+    </div>
+    </div>
+
+    <div class="position-relative overflow-hidden bg-white pt-6 pt-md-0">
+        <div class="px-4 py-md-80px m-md-6">
+            <div class="col-md-6 col-lg-4 position-md-absolute mt-md-6 ml-md-6">
+                <h3 class="h1 mb-2 lh-condensed">Resources</h3>
+                <p class="text-gray">In Foss, we care for our learners and here you go with some of the best resources to begin with</p>
+            </div>
+        </div>
+        <ol class="WordCloud d-md-flex flex-wrap flex-justify-around gutter-md f2 text-center text-md-left text-bold text-gray-light lh-condensed list-style-none mt-6 mt-md-0 px-4">
+            <li class="my-2">
+                <a href="https://github.com/topics/machine-learning" class="text-y-end">machine-
+                    <br />learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/game" class="text-y-start">game</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/ios" class="text-y-start">iOS</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/api" class="text-y-end">API</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/blog" class="text-y-start">blog</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/website" class="text-y-start">website</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/deep-learning" class="text-y-end">deep-learning</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/library" class="text-y-start">library</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/arduino" class="text-y-end">arduino</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/plugin" class="text-y-start">plugin</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/database" class="text-y-end">database</a>
+            </li>
+            <li class="my-2">
+                <a href="https://github.com/topics/bot" class="text-y-start">bot</a>
+            </li>
+            <div class="d-none d-md-block col-md-8 col-lg-5" style="order: -1; height: 200px;"></div>
+        </ol>
+    </div>
+
+
+    <!--// SPACER //-->
+    <div class="col-md-12 py-6 my-6"></div>
+
+
+
+
+
+
+
+
+
+    <div id="footer">
+        <div class="Hero height-md-fullScreen overflow-hidden bg-darkness">
+            <div class="height-md-fullScreen container-xxl mx-auto position-relative px-4 px-md-6 pt-6">
+                <!--// SPACER //-->
+                <div class="py-6 my-6"></div>
+
+                <div class="position-md-absolute top-0 bottom-0 right-0 mr-md-6">
+                    <div class="vr--spectrum position-md-absolute top-0 bottom-0 right-0 mr-md-6"></div>
+                </div>
+                <div class="bg-vrs--interior--dark d-none d-md-block position-md-absolute top-0 right-0 bottom-0 left-0" style="margin: 0 80px">
+
+                    <svg class="rellax bg-vrs-star bg-vrs-star--2 position-absolute" style="bottom: 10%; margin-left: -0.55em;" data-rellax-speed="2"
+                        width="20" height="20" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                        <title>Star Copy</title>
+                        <g fill="none" fill-rule="evenodd">
+                            <path d="M8.878 15C7.855 10.978 6.978 10.064 3 8.878 7.022 7.855 7.936 6.978 9.123 3c1.022 4.022 1.9 4.936 5.877 6.123-4.022 1.022-4.936 1.9-6.122 5.877"
+                                fill="#24292E" />
+                            <path d="M8.878 15C7.855 10.978 6.978 10.064 3 8.878 7.022 7.855 7.936 6.978 9.123 3c1.022 4.022 1.9 4.936 5.877 6.123-4.022 1.022-4.936 1.9-6.122 5.877z"
+                                stroke="#A166AB" stroke-width="5.866" fill="#A166AB" stroke-linecap="round" stroke-linejoin="round"
+                            />
+                        </g>
+                    </svg>
+
+                    <svg class="rellax bg-vrs-star bg-vrs-star--3 position-absolute" style="top: 10%; margin-right: -0.60em;" data-rellax-speed="2"
+                        width="17" height="17" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                        <title>Star Copy</title>
+                        <g fill="none" fill-rule="evenodd">
+                            <path d="M8.878 15C7.855 10.978 6.978 10.064 3 8.878 7.022 7.855 7.936 6.978 9.123 3c1.022 4.022 1.9 4.936 5.877 6.123-4.022 1.022-4.936 1.9-6.122 5.877"
+                                fill="#24292E" />
+                            <path d="M8.878 15C7.855 10.978 6.978 10.064 3 8.878 7.022 7.855 7.936 6.978 9.123 3c1.022 4.022 1.9 4.936 5.877 6.123-4.022 1.022-4.936 1.9-6.122 5.877z"
+                                stroke="#F79533" stroke-width="5.866" fill="#F79533" stroke-linecap="round" stroke-linejoin="round"
+                            />
+                        </g>
+                    </svg>
+
+                </div>
+
+                <!--// Globe //-->
+                <div class="Earth">
+                    <div class="Earth-floaties position-absolute top-0 right-0 bottom-0 left-0">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <img src="assets/img/globe.svg" class="width-full" />
+                </div>
+
+                <div class="d-md-flex flex-wrap position-relative height-md-fullScreen text-gray-light mx-md-6">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-8 col-lg-6 col-xl-6">
+                        <p class="f00 text-bold text-white lh-condensed mb-3">Thank for your visit.</p>
+                        <p class="Logo-waypoint">We can’t wait to have an amazing experience with you.</p>
+
+                        <div class="pt-6 mt-6">
+                            <h4 class="f4 text-normal text-uppercase mb-3">Join our universe</h4>
+                            <ul class="list-style-none d-flex flex-items-center">
+                                <li class="mr-4">
+                                    <a href="https://twitter.com/geekhaveniiita" class="d-inline-block v-align-middle link-hover-opacity">
+                                        <img src="assets/img/icons/twitter.svg" width="32" />
+                                        <span class="d-none">Twitter: @github</span>
+                                    </a>
+                                </li>
+                                <li class="mr-4">
+                                    <a href="https://www.facebook.com/geekhaveniiita/" class="d-inline-block v-align-middle link-hover-opacity">
+                                        <img src="assets/img/icons/facebook.svg" width="32" />
+                                        <span class="d-none">Facebook: github</span>
+                                    </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="https://www.linkedin.com/company/github" class="d-inline-block v-align-middle link-hover-opacity">
+                                        <img src="assets/img/icons/linkedin.svg" width="32" />
+                                        <span class="d-none">Linkedin: github</span>
+                                    </a>
+                                </li> -->
+                            </ul>
+                        </div>
+
+                       
+                    </div>
+
+                    <div class="col-md-3 col-lg-4 col-xl-6">
+                        <div class="position-md-absolute top-0 bottom-0 left-0">
+                            <div class="vr--spectrum position-md-absolute top-0 bottom-0 left-0"></div>
+                        </div>
+                    </div>
+
+                    <!--// SPACER //-->
+                    <div class="col-md-12 py-6 my-6"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+        crossorigin=""></script>
+    <script src="assets/js/plugins/jquery.waypoints.min.js"></script>
+    <script src="assets/js/plugins/inview.min.js"></script>
+    <script src="assets/js/plugins/rellax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <script src="https://github.com/site/assets/styleguide.js"></script>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3769691-36"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-3769691-36');
+    </script>
+
+</body>
+
+</html>
